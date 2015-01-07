@@ -1,0 +1,34 @@
+.front.not-logged-in #page-title, .front.not-logged-in #block-system-main,
+.breadcrumb {
+	display:none;
+}
+.not-logged-in #user-login-form .item-list ul, .not-logged-in .menu-275, .not-logged-in .breadcrumb {
+	display:none;
+}
+#header {
+	background-color:#5f99d2;
+	background-image:none;
+}
+#block-civicrm-5 {
+	padding:20px 10px;
+}
+#block-civicrm-5 select {
+	font-size:.95em;
+}
+body.logged-in.page-civicrm {
+	padding-top:27px;
+}
+#block-civicrm-1:after {
+	content:'';
+	display:table;
+	clear:both;
+}
+.not-logged-in #main-menu-links {
+	display:none;
+}
+.region-header .language-switcher-locale-url li.active a{
+	text-decoration:underline;
+}
+.front #crm-main-content-wrapper fieldset button {
+	margin:0 5px 10px 0;
+}
